@@ -1,0 +1,38 @@
+*{
+ margin: 0;
+ padding: 0;
+ 
+}
+h1 {
+ color: aquamarine;
+  }
+body{
+    background: rgb(35,236,222);
+    background: linear-gradient(0deg, rgba(35,236,222,1) 0%, rgba(130,45,253,1) 100%);
+    }
+#cursiva{
+    font-style: oblique;
+    font-family: "Madimi One, sans-serif";
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: 3px dotted black;
+    border-radius: 10px 20px 55px 30px ;
+    box-shadow: 10px 10px 10px orange;
+}
+img{
+    width: 600px;
+border: 10px solid black;
+    border-radius: 10px;
+}
+img:hover{
+    transition: 2s all ease;
+    transform: scale(1.2) rotate(360deg);
+}
+h1:hover{
+    background-color: #ffe0e0;
+    color: black;
+    box-shadow: 0 0 5px #5e0101;
+}
